@@ -1,0 +1,70 @@
+
+.header {
+    display: grid;
+    border-bottom: 1px solid #efecec;
+}
+
+.search {
+    float: left;
+    margin: 10px;
+
+}
+
+.search input {
+    border: none !important;
+}
+
+.search input:focus {
+    outline-style: none !important;
+}
+
+.toggle_sort {
+    float: right;
+}
+
+.toggle {
+    display: inline-grid;
+}
+
+
+.desc_toggle {
+    padding-left: 13px;
+}
+
+.reports_header {
+    color: #68a1ea;
+    float: left;
+    margin: 10px;
+}
+
+.title_and_actions {
+    background-color: ghostwhite;
+}
+
+.header_buttons {
+    display: inline-flex;
+    float: right;
+}
+
+.toggle_sort button {
+    display: flex;
+    height: 15px;
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.header_buttons button{
+    display: flex;
+    height: 15px;
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    margin-top: 10px;
+}

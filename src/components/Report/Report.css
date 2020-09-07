@@ -1,0 +1,28 @@
+
+.item {
+    padding: 5px 5px 0 5px;
+    border-bottom: 1px solid #efecec;
+    border-top: 1px solid #efecec;
+    height: 53px;
+    display: grid;
+}
+
+.item .name {
+    float: left;
+}
+
+.item .date {
+    float: right;
+}
+
+.item .type {
+    float: left;
+}
+
+.item .time {
+    float: right
+}
+
+li .item_first_line {
+    padding-bottom: 10px;
+}

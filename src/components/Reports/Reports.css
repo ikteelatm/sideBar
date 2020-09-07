@@ -1,0 +1,39 @@
+.reports {
+     font-size: small;
+     margin-top: 0 !important;
+     border-right: 1px solid #efecec;
+    /*overflow-y: auto;*/
+ }
+
+ul {
+    list-style-type: none;
+    padding: 0 !important;
+}
+
+@media all and (max-height: 519px) {
+    .reports {
+        max-height: 519px;
+        overflow-y: auto;
+    }
+}
+
+@media all and (min-height: 520px) and (max-height: 698px) {
+    .reports {
+        max-height: 520px;
+        overflow-y: auto;
+    }
+}
+
+@media all and (min-height: 699px) and  (max-height: 798px){
+    .reports {
+        max-height: 699px;
+        overflow-y: auto;
+    }
+}
+
+@media all and (min-height: 799px) {
+    .reports {
+        max-height: 799px;
+        overflow-y: auto;
+    }
+}
