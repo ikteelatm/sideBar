@@ -5,6 +5,8 @@ import {getReports} from '../Utilities/SidebarUtilities';
 import {SIDEBAR_ACTIONS} from '../Constants/Constants';
 import './Sidebar.css';
 
+const DATA_FILE = 'sidebar.json';
+
 class Sidebar extends Component {
     constructor(props) {
         super(props);
@@ -25,8 +27,7 @@ class Sidebar extends Component {
      * @returns {Promise<void>}
      */
     async componentDidMount() {
-        const reports = await getReports();
-        reports.sort((a, b) => b.updated - a.updated);
+        const reports = await getReports(DATA_FILE);
         this.setState({reports: reports});
 
     }
